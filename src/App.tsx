@@ -1,12 +1,12 @@
 import './App.css'
-import ChitChat from './components/ChitChat'
+import LoginPage from './components/LoginPage'
 
 function App() {
   
   return (
     <>
       <div>    
-        <ChitChat />
+        <LoginPage />
       </div>      
     </>
   )
