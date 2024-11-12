@@ -16,9 +16,9 @@ const App = () => {
     }
 
   return (
-    <div className={`flex font-Montserrat bg-slate-500 ${darkMode && 'dark'}`}>
+    <div className={`flex font-Montserrat bg-slate-700 ${darkMode && "dark"}`}>
        <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar}  />
-       <MainContent />
+       <MainContent isOpen={isOpen} darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </div>
   )
 }
