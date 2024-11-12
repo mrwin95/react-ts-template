@@ -25,26 +25,32 @@ export const menuItems = [
   {
     icon: FaHome,
     name: "Home",
+    link: "/"
   },
   {
     icon: FaUser,
     name: "Profile",
+    link: "/profile"
   },
   {
     icon: FaCog,
     name: "Settings",
+    link: "/settings"
   },
   {
     icon: FaEnvelope,
     name: "Messages",
+    link: "/messages"
   },
   {
     icon: FaChartLine,
     name: "Analytics",
+    link: "/analytics"
   },
   {
     icon: FaSignOutAlt,
     name: "Logout",
+    link: "/",
     isLogout: true,
   },
 ];

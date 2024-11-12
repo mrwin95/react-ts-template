@@ -21,7 +21,7 @@ const Sidebar = ({isOpen, toggleSidebar}: SidebarProps) => {
         <div className="mt-6 flex-1">
             {
                 menuItems.map((item, index) => (
-                    <MenuItem key={index} icon={item.icon} name={item.name} isOpen={isOpen} />
+                    <MenuItem key={index} icon={item.icon} name={item.name} link={item.link} isOpen={isOpen} />
                 ))
             }
         </div>
